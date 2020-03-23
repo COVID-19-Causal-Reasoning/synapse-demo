@@ -1,0 +1,22 @@
+---
+title: "Synapse gene expression analysis demo"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook with the goal of showcasing how to use [Synapse](http://synapse.org) in an analysis pipeline. The data we are going to analyze is microarray data derved from [this manuscript](https://www.ncbi.nlm.nih.gov/pubmed/22028656) published in 2011. 
+
+I have downloaded the array data and put it into a synapse folder that you can see in your browser here. But it's not very usable in your browser, so I'm goign to download it programmatically here. 
+
+Synapse has an [R client]() and a [Python client]() but I'm just going to use the Python version from R using the [reticulate]() library. 
+
+
+```{r}
+library(reticulate)
+
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
